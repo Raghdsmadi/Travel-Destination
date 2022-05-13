@@ -1,0 +1,16 @@
+#headNav{
+    text-decoration: none;
+    color: rgb(121, 14, 106);
+  }
+  #headNav:hover {
+  background-color: #dba4d2;
+  }
+  h1.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 69, 105);
+    background-color: #ccb5c4;
+    height: 100px;
+    margin-bottom: 50px;
+  }

@@ -1,12 +1,21 @@
-
+import "./Tours.css"
 
 function  Tours (props)
 {
 
     return (
     <> 
-  <div>{props.name}</div>
-        <img src={props.image}  />  
+    
+  <div className="card"
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        alignItems: "center",
+        justifyContent: "center",
+      }}>{props.name}</div>
+      <div>
+        <img src={props.image} className="tt" style = {{alignItems: "center"} }  alt = "seen"/>  
+        </div>
         </>
     
     )

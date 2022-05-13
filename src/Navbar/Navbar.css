@@ -1,0 +1,7 @@
+#headNav{
+    text-decoration: none;
+    color: rgb(155, 52, 141);
+  }
+  #headNav:hover {
+  background-color: #c547b0;
+  }
