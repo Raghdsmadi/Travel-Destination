@@ -10,18 +10,7 @@ function Home (props)
         <Header />
         
 
-        {
-          tourData.map(element => {
-              return (
-                    <Tours 
-                    name={element.name}
-                    image={element.image}
-                    
-                    />
-                    );
-               } )
-
-        }
+        <Tours tours={tourData} />
 
 
         <Footer />
